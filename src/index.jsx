@@ -25,7 +25,7 @@ root.render(
     <Estilos>
       <span>Probando</span>
     </Estilos>
-    <StateFuncional/>
+    <StateFuncional />
     <App></App>
     <PersonCard firstName="John" lastName="Smith" age={8} hairColor={"Brown"} />
   </React.StrictMode>
