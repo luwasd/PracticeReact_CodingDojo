@@ -8,13 +8,17 @@ import PersonCard from './components/PersonCard';
 import App from './App';
 import StateFuncional from './components/StateFuncional';
 import UserForm from './components/UserForm';
+import MovieForm from './components/MovieForm';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Formulario</h1>
+    <h2>Movie Form</h2>
+    <MovieForm />
+    <hr />
+    <h2>Formulario</h2>
     <UserForm />
     <hr />
     <MyNewComponent Nombre="Lucas" Edad={29} />
